@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amanda Marie - Honey Soul Awakening</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #FFF8E1;
+            color: #6D4C41;
+            margin: 0;
+            padding: 0;
+        }
+        header, footer {
+            background-color: #FFEB3B;
+            color: #6D4C41;
+            text-align: center;
+            padding: 10px 0;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        h1, h2 {
+            font-family: 'Georgia', serif;
+        }
+        .email-grab {
+            background-color: #FFF3E0;
+            border: 1px solid #FFCC80;
+            padding: 20px;
+            text-align: center;
+            margin: 20px 0;
+        }
+        .email-grab input[type="email"] {
+            padding: 10px;
+            margin-right: 10px;
+            border: 1px solid #FFCC80;
+        }
+        .email-grab input[type="submit"] {
+            padding: 10px 20px;
+            background-color: #FFEB3B;
+            border: none;
+            color: #6D4C41;
+            cursor: pointer;
+        }
+        .section {
+            margin: 40px 0;
+        }
+        .honeycomb {
+            background: url('honeycomb.png') no-repeat center center;
+            background-size: cover;
+            padding: 40px 0;
+        }
+        .contact form {
+            display: flex;
+            flex-direction: column;
+        }
+        .contact input, .contact textarea {
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #FFCC80;
+        }
+        .contact input[type="submit"] {
+            background-color: #FFEB3B;
+            border: none;
+            color: #6D4C41;
+            cursor: pointer;
+            padding: 10px 20px;
+        }
+        .button {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #FFEB3B;
+            color: #6D4C41;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Amanda Marie - Honey Soul Awakening</h1>
+    </header>
+
+    <div class="container">
+        <div class="section">
+            <h2>Landing Page</h2>
+            <p>Welcome to Honey Soul Awakening. Discover the path to your true self through our guided meditations and transformative retreats.</p>
+        </div>
+
+        <div class="email-grab">
+            <h2>Stay Connected</h2>
+            <p>Subscribe to our newsletter to receive the latest updates and exclusive content.</p>
+            <form>
+                <input type="email" placeholder="Enter your email">
+                <input type="submit" value="Subscribe">
+            </form>
+        </div>
+
+        <div class="section">
+            <h2>About Me</h2>
+            <p>I am Amanda Marie, a spiritual guide and meditation instructor with a passion for helping others awaken their true potential. Through Honey Soul Awakening, I offer personalized retreats and guided meditations designed to nurture the soul and inspire profound personal growth.</p>
+        </div>
+
+        <div class="section contact">
+            <h2>Contact</h2>
+            <form>
+                <input type="text" placeholder="Your Name">
+                <input type="email" placeholder="Your Email">
+                <textarea placeholder="Your Message" rows="4"></textarea>
+                <input type="submit" value="Send Message">
+            </form>
+        </div>
+
+        <div class="section honeycomb">
+            <h2>Retreat Information</h2>
+            <p>Join us for a transformative experience in our upcoming retreats. Connect with like-minded individuals and embark on a journey of self-discovery.</p>
+            <a href="#" class="button">Learn More</a>
+        </div>
+
+        <div class="section">
+            <h2>Guided Meditations</h2>
+            <p>Explore our collection of guided meditations designed to help you find peace, clarity, and spiritual growth.</p>
+            <a href="#" class="button">Start Meditating</a>
+        </div>
+
+        <div class="section">
+            <h2>Book Now</h2>
+            <p>Ready to take the next step in your spiritual journey? Book a session with me today and begin your transformation.</p>
+            <a href="#" class="button">Book a Session</a>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Amanda Marie - Honey Soul Awakening. All rights reserved.</p>
+    </footer>
+</body>
+</html>
